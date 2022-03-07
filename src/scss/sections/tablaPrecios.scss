@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap");
+
+.free {
+  position: relative;
+  margin: 1rem 0;
+  width: 35%;
+  .container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    height: 35rem;
+    width: 90%;
+    border-radius: 1rem;
+    overflow: hidden;
+    z-index: 1;
+    background-color: var(--orange);
+    .background {
+      z-index: -1;
+      .ellipse {
+        position: absolute;
+        height: 100%;
+        width: 28rem;
+        border-radius: 100%;
+        width: 28rem;
+        filter: blur(100px);
+      }
+      .blue {
+        top: -10%;
+        right: -15%;
+        background-color: var(--blue);
+      }
+      .green {
+        background-color: var(--blue);
+        top: -10%;
+        left: -15%;
+      }
+    }
+
+    .precio{
+      position: absolute;
+      display: flex;
+      
+    }
+
+    .content {
+      justify-content: space-between;
+      margin: 6px;
+    }
+
+    .content h2 {
+      font-size: 1.6rem;
+      font-family: "Roboto", sans-serif;
+      font-weight: 800;
+      color: #ddaf24ee;
+      text-transform: uppercase;
+      letter-spacing: 1.4px;
+      margin: 9px;
+    }
+
+    .title {
+      display: flex;
+      position: relative;
+      top: 6%;
+    }
+
+    .title p {
+      font-weight: bold;
+      font-size: 19px;
+    }
+
+    .subTitulo {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16.5px;
+      margin-right: 80px;
+      top: 10%;
+      left: 4%;
+      display: flex;
+      position: relative;
+      margin: 9px;
+      font-weight: bold;
+      letter-spacing: -1px;
+      color: var(--white);
+    }
+
+    .canales {
+      position: absolute;
+      top: 35%;
+      margin: 1rem;
+      left: 4%;
+
+      .frase2 {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        left: 105%;
+        top: -13%;
+        font-size: 23px;
+        font-weight: 800;
+      }
+    }
+
+    .textoBoton {
+      display: flex;
+      color: #fff;
+      left: 105%;
+      width: 100%;
+      padding: 1px;
+      top: 43%;
+      position: absolute;
+    }
+
+    .paypal {
+      display: flex;
+      position: absolute;
+      z-index: 1;
+      width: 48%;
+      border-radius: 13px;
+      height: 110px;
+      left: 25%;
+      top: 67%;
+      background-color: #242320;
+      right: 50%;
+    }
+
+    .content button {
+      color: var(--accent-color1);
+      background-color: var(--background);
+      font-weight: bold;
+      position: absolute;
+      left: 29%;
+      top: 89%;
+      padding: 1rem 3rem;
+      border-radius: 2rem;
+      box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+      border: solid 3px transparent;
+      border: solid 1px rgb(196, 118, 45);
+      background-image: linear-gradient(
+          rgba(255, 255, 255, 0),
+          rgba(255, 255, 255, 0)
+        ),
+        linear-gradient(101deg, var(--blue), var(--orange));
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      box-shadow: 2px 1000px 1px var(--background) inset;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        box-shadow: none;
+      }
+    }
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 30rem;
+    top: 0%;
+    left: 97%;
+    width: 90%;
+    border-radius: 1rem;
+    overflow: hidden;
+    z-index: 1;
+    background-color: var(--orange);
+    .background {
+      z-index: -1;
+      .ellipse {
+        position: absolute;
+        height: 100%;
+        width: 28rem;
+        border-radius: 100%;
+        width: 28rem;
+        filter: blur(100px);
+      }
+      .blue {
+        top: -10%;
+        right: -18%;
+        background-color: var(--orange);
+      }
+      .green {
+        background-color: var(--blue);
+        top: -10%;
+        left: -15%;
+      }
+    }
+  }
+
+  .container3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 30rem;
+    top: 0%;
+    left: 195%;
+    width: 90%;
+    border-radius: 1rem;
+    overflow: hidden;
+    z-index: 1;
+    background-color: var(--orange);
+    .background {
+      z-index: -1;
+      .ellipse {
+        position: absolute;
+        height: 100%;
+        width: 28rem;
+        border-radius: 100%;
+        width: 28rem;
+        filter: blur(100px);
+      }
+      .blue {
+        top: -10%;
+        right: 15%;
+        background-color: var(--blue);
+      }
+      .green {
+        background-color: var(--orange), var(--blue);
+        top: -10%;
+        left: -15%;
+      }
+    }
+  }
+}
